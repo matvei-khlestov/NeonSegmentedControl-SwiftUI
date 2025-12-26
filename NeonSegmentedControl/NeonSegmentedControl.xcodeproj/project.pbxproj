@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A06E21B42EFD946500333318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21B12EFD946500333318 /* ContentView.swift */; };
+		A06E21B52EFD946500333318 /* NeonSegmentedControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21B22EFD946500333318 /* NeonSegmentedControlApp.swift */; };
+		A06E21B62EFD946500333318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06E21B02EFD946500333318 /* Assets.xcassets */; };
+		A06E21BB2EFD950000333318 /* NeonSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21BA2EFD950000333318 /* NeonSegmentedControl.swift */; };
+		A06E21BF2EFD965900333318 /* NeonSegmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21BE2EFD965900333318 /* NeonSegmentItem.swift */; };
+		A06E21C12EFD96E400333318 /* NeonSegmentedControl+Pieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21C02EFD96E400333318 /* NeonSegmentedControl+Pieces.swift */; };
+		A06E21C32EFD971500333318 /* NeonSegmentedControl+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21C22EFD971500333318 /* NeonSegmentedControl+Styles.swift */; };
+		A06E21C82EFD99C900333318 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21C72EFD99C900333318 /* DashboardView.swift */; };
+		A06E21CA2EFD9A9E00333318 /* Dashboard+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21C92EFD9A9E00333318 /* Dashboard+Models.swift */; };
+		A06E21CC2EFD9AC100333318 /* Dashboard+Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21CB2EFD9AC100333318 /* Dashboard+Grid.swift */; };
+		A06E21CE2EFD9AE000333318 /* Dashboard+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21CD2EFD9AE000333318 /* Dashboard+UI.swift */; };
+		A06E21D02EFDA31700333318 /* NeonSegmentedControl+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21CF2EFDA31700333318 /* NeonSegmentedControl+Layout.swift */; };
+		A06E21D62EFDB74B00333318 /* NeonSegmentedControl+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21D52EFDB74B00333318 /* NeonSegmentedControl+Colors.swift */; };
+		A06E21D82EFDBED900333318 /* Dashboard+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21D72EFDBED900333318 /* Dashboard+Styles.swift */; };
+		A06E21DC2EFDC25400333318 /* Dashboard+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E21DB2EFDC25400333318 /* Dashboard+Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A06E21A22EFD940C00333318 /* NeonSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06E21B02EFD946500333318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06E21B12EFD946500333318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A06E21B22EFD946500333318 /* NeonSegmentedControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonSegmentedControlApp.swift; sourceTree = "<group>"; };
+		A06E21BA2EFD950000333318 /* NeonSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonSegmentedControl.swift; sourceTree = "<group>"; };
+		A06E21BE2EFD965900333318 /* NeonSegmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonSegmentItem.swift; sourceTree = "<group>"; };
+		A06E21C02EFD96E400333318 /* NeonSegmentedControl+Pieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeonSegmentedControl+Pieces.swift"; sourceTree = "<group>"; };
+		A06E21C22EFD971500333318 /* NeonSegmentedControl+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeonSegmentedControl+Styles.swift"; sourceTree = "<group>"; };
+		A06E21C72EFD99C900333318 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A06E21C92EFD9A9E00333318 /* Dashboard+Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+Models.swift"; sourceTree = "<group>"; };
+		A06E21CB2EFD9AC100333318 /* Dashboard+Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+Grid.swift"; sourceTree = "<group>"; };
+		A06E21CD2EFD9AE000333318 /* Dashboard+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+UI.swift"; sourceTree = "<group>"; };
+		A06E21CF2EFDA31700333318 /* NeonSegmentedControl+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeonSegmentedControl+Layout.swift"; sourceTree = "<group>"; };
+		A06E21D52EFDB74B00333318 /* NeonSegmentedControl+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeonSegmentedControl+Colors.swift"; sourceTree = "<group>"; };
+		A06E21D72EFDBED900333318 /* Dashboard+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+Styles.swift"; sourceTree = "<group>"; };
+		A06E21DB2EFDC25400333318 /* Dashboard+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+Colors.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06E219F2EFD940C00333318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A06E21992EFD940C00333318 = {
+			isa = PBXGroup;
+			children = (
+				A06E21B32EFD946500333318 /* NeonSegmentedControl */,
+				A06E21A32EFD940C00333318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A06E21A32EFD940C00333318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21A22EFD940C00333318 /* NeonSegmentedControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06E21B32EFD946500333318 /* NeonSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21B72EFD948800333318 /* Presentation */,
+				A06E21D42EFDB10400333318 /* Resources */,
+				A06E21B22EFD946500333318 /* NeonSegmentedControlApp.swift */,
+			);
+			path = NeonSegmentedControl;
+			sourceTree = "<group>";
+		};
+		A06E21B72EFD948800333318 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21C42EFD997E00333318 /* Root */,
+				A06E21C52EFD99A000333318 /* Screens */,
+				A06E21B82EFD94C300333318 /* Components */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A06E21B82EFD94C300333318 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21B92EFD94E700333318 /* NeonSegmentedControl */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A06E21B92EFD94E700333318 /* NeonSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21BE2EFD965900333318 /* NeonSegmentItem.swift */,
+				A06E21BA2EFD950000333318 /* NeonSegmentedControl.swift */,
+				A06E21CF2EFDA31700333318 /* NeonSegmentedControl+Layout.swift */,
+				A06E21C02EFD96E400333318 /* NeonSegmentedControl+Pieces.swift */,
+				A06E21C22EFD971500333318 /* NeonSegmentedControl+Styles.swift */,
+				A06E21D52EFDB74B00333318 /* NeonSegmentedControl+Colors.swift */,
+			);
+			path = NeonSegmentedControl;
+			sourceTree = "<group>";
+		};
+		A06E21C42EFD997E00333318 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21B12EFD946500333318 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A06E21C52EFD99A000333318 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21C62EFD99B200333318 /* Dashboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A06E21C62EFD99B200333318 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21C72EFD99C900333318 /* DashboardView.swift */,
+				A06E21C92EFD9A9E00333318 /* Dashboard+Models.swift */,
+				A06E21CB2EFD9AC100333318 /* Dashboard+Grid.swift */,
+				A06E21CD2EFD9AE000333318 /* Dashboard+UI.swift */,
+				A06E21D72EFDBED900333318 /* Dashboard+Styles.swift */,
+				A06E21DB2EFDC25400333318 /* Dashboard+Colors.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		A06E21D42EFDB10400333318 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A06E21B02EFD946500333318 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A06E21A12EFD940C00333318 /* NeonSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06E21AD2EFD940E00333318 /* Build configuration list for PBXNativeTarget "NeonSegmentedControl" */;
+			buildPhases = (
+				A06E219E2EFD940C00333318 /* Sources */,
+				A06E219F2EFD940C00333318 /* Frameworks */,
+				A06E21A02EFD940C00333318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonSegmentedControl;
+			packageProductDependencies = (
+			);
+			productName = NeonSegmentedControl;
+			productReference = A06E21A22EFD940C00333318 /* NeonSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A06E219A2EFD940C00333318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A06E21A12EFD940C00333318 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = A06E219D2EFD940C00333318 /* Build configuration list for PBXProject "NeonSegmentedControl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A06E21992EFD940C00333318;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A06E21A32EFD940C00333318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06E21A12EFD940C00333318 /* NeonSegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A06E21A02EFD940C00333318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E21B62EFD946500333318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A06E219E2EFD940C00333318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E21CA2EFD9A9E00333318 /* Dashboard+Models.swift in Sources */,
+				A06E21C32EFD971500333318 /* NeonSegmentedControl+Styles.swift in Sources */,
+				A06E21D82EFDBED900333318 /* Dashboard+Styles.swift in Sources */,
+				A06E21D62EFDB74B00333318 /* NeonSegmentedControl+Colors.swift in Sources */,
+				A06E21BB2EFD950000333318 /* NeonSegmentedControl.swift in Sources */,
+				A06E21B42EFD946500333318 /* ContentView.swift in Sources */,
+				A06E21CE2EFD9AE000333318 /* Dashboard+UI.swift in Sources */,
+				A06E21C82EFD99C900333318 /* DashboardView.swift in Sources */,
+				A06E21CC2EFD9AC100333318 /* Dashboard+Grid.swift in Sources */,
+				A06E21BF2EFD965900333318 /* NeonSegmentItem.swift in Sources */,
+				A06E21DC2EFDC25400333318 /* Dashboard+Colors.swift in Sources */,
+				A06E21C12EFD96E400333318 /* NeonSegmentedControl+Pieces.swift in Sources */,
+				A06E21B52EFD946500333318 /* NeonSegmentedControlApp.swift in Sources */,
+				A06E21D02EFDA31700333318 /* NeonSegmentedControl+Layout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A06E21AB2EFD940E00333318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A06E21AC2EFD940E00333318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A06E21AE2EFD940E00333318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.NeonSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A06E21AF2EFD940E00333318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.NeonSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A06E219D2EFD940C00333318 /* Build configuration list for PBXProject "NeonSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06E21AB2EFD940E00333318 /* Debug */,
+				A06E21AC2EFD940E00333318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06E21AD2EFD940E00333318 /* Build configuration list for PBXNativeTarget "NeonSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06E21AE2EFD940E00333318 /* Debug */,
+				A06E21AF2EFD940E00333318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A06E219A2EFD940C00333318 /* Project object */;
+}
